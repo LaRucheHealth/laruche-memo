@@ -17,7 +17,7 @@
   --text:#02014D;
 }
 *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
-body { background:#fff; font-family:'Sora',sans-serif; color:var(--navy); font-size:14px; line-height:1.5; }
+body { background:#fff; font-family:'Sora',sans-serif; color:var(--navy); font-size:16px; line-height:1.5; }
 .page { max-width:680px; margin:0 auto; padding:32px 20px 60px; }
 
 /* ── HEADER ── */
@@ -25,11 +25,11 @@ body { background:#fff; font-family:'Sora',sans-serif; color:var(--navy); font-s
 .logo-img { height:36px; display:block; }
 .pills { display:flex; gap:8px; flex-wrap:wrap; }
 .pill { background:var(--navy); border-radius:7px; padding:7px 13px; text-align:center; }
-.pill .pl { font-size:0.55rem; color:rgba(255,255,255,0.5); text-transform:uppercase; letter-spacing:0.1em; margin-bottom:2px; }
+.pill .pl { font-size:0.84rem; color:rgba(255,255,255,0.5); text-transform:uppercase; letter-spacing:0.1em; margin-bottom:2px; }
 .pill .pv { font-size:0.9rem; font-weight:700; color:var(--teal); line-height:1.1; white-space:nowrap; }
 
 /* ── SECTION HEADER ── */
-.sh { font-size:0.6rem; text-transform:uppercase; letter-spacing:0.15em; color:var(--purple); font-weight:700; margin-bottom:8px; }
+.sh { font-size:0.83rem; text-transform:uppercase; letter-spacing:0.15em; color:var(--purple); font-weight:700; margin-bottom:8px; }
 
 /* ── STAT GRID ── */
 .stats { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:32px; }
@@ -39,20 +39,20 @@ body { background:#fff; font-family:'Sora',sans-serif; color:var(--navy); font-s
 .stat.purple::before { background:var(--purple); }
 .stat.amber::before { background:var(--amber); }
 .stat.teal::before { background:var(--teal); }
-.sl { font-size:0.6rem; color:var(--gray); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:4px; font-weight:600; }
-.sv { font-size:1.6rem; font-weight:700; line-height:1; color:var(--navy); }
+.sl { font-size:0.83rem; color:var(--gray); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:4px; font-weight:600; }
+.sv { font-size:1.75rem; font-weight:700; line-height:1; color:var(--navy); }
 .stat.red .sv { color:var(--red); }
 .stat.purple .sv { color:var(--purple); }
 .stat.amber .sv { color:var(--amber); }
 .stat.teal .sv { color:var(--teal); }
-.ss { font-size:0.62rem; color:var(--gray); margin-top:3px; }
+.ss { font-size:0.77rem; color:var(--gray); margin-top:3px; }
 .rev-bars { display:flex; align-items:flex-end; gap:2px; height:18px; margin-top:6px; }
 .rev-bar { flex:1; border-radius:2px 2px 0 0; background:linear-gradient(180deg,var(--teal),var(--teal-l)); min-height:2px; }
 
 /* ── SECTION BLOCK ── */
 .block { margin-bottom:32px; }
 .block-title { font-size:1rem; font-weight:700; color:var(--navy); margin-bottom:3px; }
-.block-sub { font-size:0.73rem; color:var(--gray); margin-bottom:16px; }
+.block-sub { font-size:0.88rem; color:var(--gray); margin-bottom:16px; }
 
 /* ── X-FACTOR CARDS ── */
 .xf-stack { display:flex; flex-direction:column; gap:10px; }
@@ -61,11 +61,11 @@ body { background:#fff; font-family:'Sora',sans-serif; color:var(--navy); font-s
 .xf-card.p2 { border-left-color:var(--amber); }
 .xf-top { display:flex; align-items:center; gap:10px; margin-bottom:8px; }
 .xf-icon { font-size:1.3rem; flex-shrink:0; }
-.xf-name { font-size:0.72rem; font-weight:700; color:var(--navy); text-transform:uppercase; letter-spacing:0.05em; }
-.xf-social { font-size:0.62rem; color:var(--gray); margin-top:1px; }
-.xf-desc { font-size:0.72rem; color:var(--gray); line-height:1.55; margin-bottom:8px; }
+.xf-name { font-size:0.87rem; font-weight:700; color:var(--navy); text-transform:uppercase; letter-spacing:0.05em; }
+.xf-social { font-size:0.77rem; color:var(--gray); margin-top:1px; }
+.xf-desc { font-size:0.87rem; color:var(--gray); line-height:1.55; margin-bottom:8px; }
 .xf-desc strong { color:var(--navy); }
-.xf-tag { display:inline-block; border-radius:4px; font-size:0.56rem; padding:2px 8px; font-weight:700; letter-spacing:0.05em; text-transform:uppercase; }
+.xf-tag { display:inline-block; border-radius:4px; font-size:0.78rem; padding:2px 8px; font-weight:700; letter-spacing:0.05em; text-transform:uppercase; }
 .xf-tag.teal { background:var(--teal-dim); border:1px solid var(--teal-border); color:#1A8A8B; }
 .xf-tag.purple { background:var(--purple-dim); border:1px solid var(--purple-border); color:var(--purple); }
 .xf-tag.amber { background:var(--amber-dim); border:1px solid var(--amber-border); color:#9A6B00; }
@@ -73,15 +73,15 @@ body { background:#fff; font-family:'Sora',sans-serif; color:var(--navy); font-s
 /* ── PIPELINE BOX ── */
 .pipeline-box { background:var(--amber-dim); border:1.5px solid var(--amber-border); border-radius:10px; padding:14px 16px; display:flex; align-items:center; gap:16px; margin-top:10px; }
 .pb-num { font-size:2.6rem; font-weight:700; color:var(--amber); line-height:1; min-width:60px; }
-.pb-text strong { font-size:0.78rem; color:var(--navy); font-weight:700; display:block; margin-bottom:3px; }
-.pb-text span { font-size:0.69rem; color:var(--gray); line-height:1.5; }
+.pb-text strong { font-size:0.85rem; color:var(--navy); font-weight:700; display:block; margin-bottom:3px; }
+.pb-text span { font-size:0.84rem; color:var(--gray); line-height:1.5; }
 
 /* ── PHONE VISUALS ── */
 .fw-phones { display:flex; flex-direction:column; gap:20px; }
 .fw-phone-wrap { display:flex; flex-direction:column; align-items:center; gap:10px; }
-.fw-phone-label { font-size:0.64rem; font-weight:700; color:var(--purple); text-transform:uppercase; letter-spacing:0.08em; background:var(--purple-dim); border:1px solid var(--purple-border); border-radius:20px; padding:4px 14px; }
+.fw-phone-label { font-size:0.87rem; font-weight:700; color:var(--purple); text-transform:uppercase; letter-spacing:0.08em; background:var(--purple-dim); border:1px solid var(--purple-border); border-radius:20px; padding:4px 14px; }
 .fw-phone-img { width:100%; max-width:260px; border-radius:14px; border:1.5px solid var(--border); box-shadow:0 4px 16px rgba(2,1,77,0.07); }
-.fw-phone-sub { font-size:0.68rem; color:var(--gray); text-align:center; line-height:1.5; max-width:280px; }
+.fw-phone-sub { font-size:0.83rem; color:var(--gray); text-align:center; line-height:1.5; max-width:280px; }
 
 /* ── MILESTONE CARDS ── */
 .ms-stack { display:flex; flex-direction:column; gap:8px; }
@@ -90,16 +90,16 @@ body { background:#fff; font-family:'Sora',sans-serif; color:var(--navy); font-s
 .ms-card.pipe { border-left-color:var(--amber); background:var(--amber-dim); }
 .ms-card.be { border-left-color:var(--purple); background:var(--purple-dim); }
 .ms-left { min-width:68px; }
-.ms-when { font-size:0.58rem; color:var(--gray); text-transform:uppercase; letter-spacing:0.07em; font-weight:600; margin-bottom:2px; }
+.ms-when { font-size:0.88rem; color:var(--gray); text-transform:uppercase; letter-spacing:0.07em; font-weight:600; margin-bottom:2px; }
 .ms-num { font-size:1.5rem; font-weight:700; line-height:1; color:#C8CEDF; }
 .ms-card.now .ms-num { color:var(--teal); }
 .ms-card.pipe .ms-num { color:var(--amber); }
 .ms-card.be .ms-num { color:var(--purple); }
-.ms-vol { font-size:0.64rem; font-weight:700; color:#C8CEDF; }
+.ms-vol { font-size:0.87rem; font-weight:700; color:#C8CEDF; }
 .ms-card.now .ms-vol { color:var(--teal); }
 .ms-card.pipe .ms-vol { color:var(--amber); }
 .ms-card.be .ms-vol { color:var(--purple); }
-.ms-note { font-size:0.68rem; color:var(--gray); line-height:1.5; padding-top:2px; }
+.ms-note { font-size:0.83rem; color:var(--gray); line-height:1.5; padding-top:2px; }
 .ms-note strong { color:var(--navy); }
 
 /* ── BAR CHART ── */
@@ -107,9 +107,9 @@ body { background:#fff; font-family:'Sora',sans-serif; color:var(--navy); font-s
 .chart-inner { position:relative; height:180px; display:flex; align-items:flex-end; gap:6px; }
 .bg-lines { position:absolute; inset:0; pointer-events:none; }
 .bg-line { position:absolute; left:0; right:0; border-top:1px solid var(--border); }
-.bg-lbl { position:absolute; left:-38px; font-size:0.54rem; color:var(--gray2); }
+.bg-lbl { position:absolute; left:-38px; font-size:0.84rem; color:var(--gray2); }
 .be-line { position:absolute; left:0; right:0; border-top:2px dashed var(--amber); opacity:0.75; z-index:3; }
-.be-tag { position:absolute; right:0; top:-11px; font-size:0.56rem; color:#9A6B00; font-weight:700; background:var(--amber-dim); border:1px solid var(--amber-border); padding:1px 7px; border-radius:3px; white-space:nowrap; }
+.be-tag { position:absolute; right:0; top:-11px; font-size:0.78rem; color:#9A6B00; font-weight:700; background:var(--amber-dim); border:1px solid var(--amber-border); padding:1px 7px; border-radius:3px; white-space:nowrap; }
 .bar-g { flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; }
 .bar-wrap { width:100%; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; height:180px; }
 .bar { width:100%; border-radius:3px 3px 0 0; min-height:3px; }
@@ -117,37 +117,37 @@ body { background:#fff; font-family:'Sora',sans-serif; color:var(--navy); font-s
 .bar.pipe { background:linear-gradient(180deg,var(--amber),#FFD768); opacity:0.8; }
 .bar.proj { background:linear-gradient(180deg,rgba(92,201,202,0.45),rgba(92,201,202,0.1)); border:1.5px dashed rgba(92,201,202,0.45); border-bottom:none; }
 .bar.be { background:linear-gradient(180deg,var(--purple),rgba(98,54,255,0.45)); }
-.bv { font-size:0.65rem; font-weight:700; color:var(--navy); margin-bottom:3px; text-align:center; }
-.bl { font-size:0.54rem; color:var(--gray); text-align:center; margin-top:5px; line-height:1.35; }
+.bv { font-size:0.88rem; font-weight:700; color:var(--navy); margin-bottom:3px; text-align:center; }
+.bl { font-size:0.84rem; color:var(--gray); text-align:center; margin-top:5px; line-height:1.35; }
 .legend { display:flex; gap:12px; flex-wrap:wrap; margin-top:12px; padding-top:10px; border-top:1px solid var(--border); }
-.leg { display:flex; align-items:center; gap:5px; font-size:0.61rem; color:var(--gray); }
+.leg { display:flex; align-items:center; gap:5px; font-size:0.84rem; color:var(--gray); }
 .leg-dot { width:9px; height:7px; border-radius:2px; flex-shrink:0; }
 
 /* ── FORMULA ── */
 .formula { background:var(--navy); border-radius:12px; padding:20px 16px; display:flex; flex-direction:column; gap:0; }
 .formula-row { display:flex; align-items:center; justify-content:space-between; padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.07); }
 .formula-row:last-child { border-bottom:none; }
-.fp-l { font-size:0.6rem; color:rgba(255,255,255,0.5); text-transform:uppercase; letter-spacing:0.08em; }
+.fp-l { font-size:0.83rem; color:rgba(255,255,255,0.5); text-transform:uppercase; letter-spacing:0.08em; }
 .fp-v { font-size:1.3rem; font-weight:700; color:var(--teal); }
 .fp-v.amber { color:var(--amber); }
-.fp-s { font-size:0.6rem; color:rgba(255,255,255,0.35); margin-top:1px; }
+.fp-s { font-size:0.83rem; color:rgba(255,255,255,0.35); margin-top:1px; }
 .fp-op { font-size:1.2rem; font-weight:700; color:rgba(255,255,255,0.15); padding:0 8px; }
 
 /* ── INVESTOR CARDS ── */
 .inv-total { background:var(--navy); border-radius:10px; padding:14px 16px; display:flex; align-items:center; justify-content:space-between; margin-bottom:12px; }
-.itb-left { font-size:0.64rem; color:rgba(255,255,255,0.5); }
-.itb-note { font-size:0.58rem; color:rgba(255,255,255,0.3); margin-top:2px; }
+.itb-left { font-size:0.87rem; color:rgba(255,255,255,0.5); }
+.itb-note { font-size:0.88rem; color:rgba(255,255,255,0.3); margin-top:2px; }
 .itb-right { font-size:1.4rem; font-weight:700; color:var(--teal); }
 .inv-grid { display:flex; flex-direction:column; gap:8px; margin-bottom:16px; }
 .inv-card { background:var(--white); border:1.5px solid var(--border); border-radius:10px; padding:12px 14px; display:flex; justify-content:space-between; align-items:flex-start; gap:12px; }
 .inv-card.founder-card { border-color:var(--purple-border); background:var(--purple-dim); }
 .inv-left { flex:1; }
-.inv-name { font-size:0.74rem; font-weight:700; color:var(--navy); margin-bottom:3px; }
-.inv-desc { font-size:0.63rem; color:var(--gray); line-height:1.4; margin-top:3px; }
+.inv-name { font-size:0.89rem; font-weight:700; color:var(--navy); margin-bottom:3px; }
+.inv-desc { font-size:0.78rem; color:var(--gray); line-height:1.4; margin-top:3px; }
 .inv-right { text-align:right; flex-shrink:0; }
 .inv-amount { font-size:1.05rem; font-weight:700; color:var(--teal); line-height:1; margin-bottom:4px; white-space:nowrap; }
 .inv-card.founder-card .inv-amount { color:var(--purple); }
-.inv-tag { display:inline-block; border-radius:4px; font-size:0.54rem; padding:2px 7px; font-weight:700; letter-spacing:0.04em; text-transform:uppercase; white-space:nowrap; }
+.inv-tag { display:inline-block; border-radius:4px; font-size:0.84rem; padding:2px 7px; font-weight:700; letter-spacing:0.04em; text-transform:uppercase; white-space:nowrap; }
 .inv-tag.nd { background:var(--teal-dim); border:1px solid var(--teal-border); color:#1A8A8B; }
 .inv-tag.safe { background:var(--amber-dim); border:1px solid var(--amber-border); color:#9A6B00; }
 .inv-tag.loan { background:rgba(223,6,95,0.07); border:1px solid rgba(223,6,95,0.22); color:var(--red); }
@@ -156,65 +156,65 @@ body { background:#fff; font-family:'Sora',sans-serif; color:var(--navy); font-s
 /* ── CAP TABLE ── */
 .captable { border:1.5px solid var(--border); border-radius:10px; overflow:hidden; }
 .ct-head { background:var(--navy); padding:9px 14px; display:grid; grid-template-columns:2fr 1fr 1fr; gap:8px; }
-.ct-head span { font-size:0.58rem; font-weight:700; color:rgba(255,255,255,0.55); text-transform:uppercase; letter-spacing:0.07em; }
+.ct-head span { font-size:0.88rem; font-weight:700; color:rgba(255,255,255,0.55); text-transform:uppercase; letter-spacing:0.07em; }
 .ct-row { padding:10px 14px; border-bottom:1px solid var(--border); display:grid; grid-template-columns:2fr 1fr 1fr; gap:8px; align-items:center; }
 .ct-row:last-child { border-bottom:none; }
 .ct-row.founder { background:var(--teal-dim); }
 .ct-row.new-round { background:var(--purple-dim); }
-.ct-name { font-size:0.68rem; font-weight:600; color:var(--navy); }
+.ct-name { font-size:0.83rem; font-weight:600; color:var(--navy); }
 .ct-row.new-round .ct-name { color:var(--purple); font-weight:700; }
-.ct-pct { font-size:0.72rem; font-weight:700; color:var(--teal); }
+.ct-pct { font-size:0.87rem; font-weight:700; color:var(--teal); }
 .ct-row.new-round .ct-pct { color:var(--purple); }
 .ct-tag { display:inline-block; border-radius:3px; font-size:0.52rem; padding:1px 5px; font-weight:700; text-transform:uppercase; }
 .ct-tag.common { background:var(--teal-dim); border:1px solid var(--teal-border); color:#1A8A8B; }
 .ct-tag.safe { background:var(--amber-dim); border:1px solid var(--amber-border); color:#9A6B00; }
 .ct-tag.loan { background:rgba(223,6,95,0.06); border:1px solid rgba(223,6,95,0.2); color:var(--red); }
 .ct-tag.new { background:var(--purple-dim); border:1px solid var(--purple-border); color:var(--purple); }
-.ct-footer { padding:9px 14px; background:var(--bg); font-size:0.59rem; color:var(--gray); border-top:1px solid var(--border); line-height:1.5; }
+.ct-footer { padding:9px 14px; background:var(--bg); font-size:0.73rem; color:var(--gray); border-top:1px solid var(--border); line-height:1.5; }
 
 /* ── TEAM ── */
 .team-stack { display:flex; flex-direction:column; gap:10px; }
 .team-card { background:var(--white); border:1.5px solid var(--border); border-radius:10px; padding:14px; display:flex; gap:12px; }
 .avatar { width:38px; height:38px; border-radius:50%; background:var(--teal-dim); border:2px solid var(--teal-border); display:flex; align-items:center; justify-content:center; font-size:1rem; flex-shrink:0; }
-.t-name { font-size:0.8rem; font-weight:700; color:var(--navy); margin-bottom:1px; }
-.t-role { font-size:0.61rem; color:var(--purple); font-weight:700; text-transform:uppercase; letter-spacing:0.05em; margin-bottom:5px; }
-.t-bio { font-size:0.66rem; color:var(--gray); line-height:1.5; }
-.t-li { display:inline-block; font-size:0.6rem; color:var(--teal); margin-top:5px; text-decoration:none; border-bottom:1px solid var(--teal-border); font-weight:600; }
+.t-name { font-size:0.87rem; font-weight:700; color:var(--navy); margin-bottom:1px; }
+.t-role { font-size:0.84rem; color:var(--purple); font-weight:700; text-transform:uppercase; letter-spacing:0.05em; margin-bottom:5px; }
+.t-bio { font-size:0.73rem; color:var(--gray); line-height:1.5; }
+.t-li { display:inline-block; font-size:0.83rem; color:var(--teal); margin-top:5px; text-decoration:none; border-bottom:1px solid var(--teal-border); font-weight:600; }
 
 /* ── CTA ── */
 .deadline-banner { background:var(--navy); border-radius:10px; padding:14px 16px; display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; }
-.db-l { font-size:0.64rem; color:rgba(255,255,255,0.5); }
-.db-n { font-size:0.58rem; color:rgba(255,255,255,0.3); margin-top:2px; }
+.db-l { font-size:0.87rem; color:rgba(255,255,255,0.5); }
+.db-n { font-size:0.88rem; color:rgba(255,255,255,0.3); margin-top:2px; }
 .db-r { font-size:1.3rem; font-weight:700; color:var(--amber); }
 .terms-strip { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:16px; }
 .term-card { background:var(--navy); border-radius:8px; padding:12px 13px; }
-.tc-l { font-size:0.57rem; color:rgba(255,255,255,0.45); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:3px; }
+.tc-l { font-size:0.64rem; color:rgba(255,255,255,0.45); text-transform:uppercase; letter-spacing:0.08em; margin-bottom:3px; }
 .tc-v { font-size:1rem; font-weight:700; color:var(--teal); line-height:1.2; }
-.tc-n { font-size:0.59rem; color:rgba(255,255,255,0.35); margin-top:2px; }
+.tc-n { font-size:0.73rem; color:rgba(255,255,255,0.35); margin-top:2px; }
 .steps-stack { display:flex; flex-direction:column; gap:10px; margin-bottom:16px; }
 .step-card { background:var(--white); border:1.5px solid var(--border); border-radius:10px; padding:14px; display:flex; gap:12px; align-items:flex-start; }
-.step-num { width:26px; height:26px; border-radius:50%; background:var(--purple); color:#fff; font-size:0.72rem; font-weight:700; display:flex; align-items:center; justify-content:center; flex-shrink:0; margin-top:1px; }
+.step-num { width:26px; height:26px; border-radius:50%; background:var(--purple); color:#fff; font-size:0.87rem; font-weight:700; display:flex; align-items:center; justify-content:center; flex-shrink:0; margin-top:1px; }
 .step-icon { font-size:1.2rem; margin-bottom:4px; display:block; }
-.step-title { font-size:0.73rem; font-weight:700; color:var(--navy); margin-bottom:3px; text-transform:uppercase; letter-spacing:0.04em; }
-.step-desc { font-size:0.67rem; color:var(--gray); line-height:1.5; margin-bottom:6px; }
-.step-btn { display:inline-block; font-size:0.62rem; font-weight:700; padding:4px 12px; border-radius:20px; text-decoration:none; }
+.step-title { font-size:0.88rem; font-weight:700; color:var(--navy); margin-bottom:3px; text-transform:uppercase; letter-spacing:0.04em; }
+.step-desc { font-size:0.74rem; color:var(--gray); line-height:1.5; margin-bottom:6px; }
+.step-btn { display:inline-block; font-size:0.77rem; font-weight:700; padding:4px 12px; border-radius:20px; text-decoration:none; }
 .step-btn.purple { background:var(--purple-dim); border:1px solid var(--purple-border); color:var(--purple); }
 .step-btn.teal { background:var(--teal-dim); border:1px solid var(--teal-border); color:#1A8A8B; }
 .step-btn.navy { background:var(--navy); color:var(--teal); }
 .contact-box { background:var(--purple-dim); border:1.5px solid var(--purple-border); border-radius:10px; padding:16px; display:flex; flex-direction:column; gap:12px; margin-bottom:16px; }
 .contact-item { display:flex; gap:12px; align-items:flex-start; }
 .contact-icon { font-size:1.3rem; flex-shrink:0; }
-.c-label { font-size:0.58rem; font-weight:700; color:var(--purple); text-transform:uppercase; letter-spacing:0.07em; margin-bottom:2px; }
-.c-value { font-size:0.78rem; font-weight:600; color:var(--navy); }
-.c-note { font-size:0.62rem; color:var(--gray); margin-top:1px; }
+.c-label { font-size:0.88rem; font-weight:700; color:var(--purple); text-transform:uppercase; letter-spacing:0.07em; margin-bottom:2px; }
+.c-value { font-size:0.85rem; font-weight:600; color:var(--navy); }
+.c-note { font-size:0.77rem; color:var(--gray); margin-top:1px; }
 
 /* ── FAQ ── */
-.faq-title { font-size:0.82rem; font-weight:700; color:var(--navy); margin-bottom:10px; }
+.faq-title { font-size:0.89rem; font-weight:700; color:var(--navy); margin-bottom:10px; }
 .faq-item { border:1.5px solid var(--border); border-radius:8px; margin-bottom:8px; overflow:hidden; }
-.faq-q { width:100%; text-align:left; background:var(--white); border:none; cursor:pointer; padding:12px 14px; font-family:'Sora',sans-serif; font-size:0.72rem; font-weight:600; color:var(--navy); display:flex; justify-content:space-between; align-items:center; gap:8px; line-height:1.4; }
+.faq-q { width:100%; text-align:left; background:var(--white); border:none; cursor:pointer; padding:12px 14px; font-family:'Sora',sans-serif; font-size:0.87rem; font-weight:600; color:var(--navy); display:flex; justify-content:space-between; align-items:center; gap:8px; line-height:1.4; }
 .faq-q:hover { background:var(--bg); }
-.faq-arrow { font-size:0.65rem; color:var(--purple); transition:transform 0.2s; flex-shrink:0; }
-.faq-a { display:none; padding:0 14px 12px; font-size:0.68rem; color:var(--gray); line-height:1.6; border-top:1px solid var(--border); background:var(--bg); }
+.faq-arrow { font-size:0.88rem; color:var(--purple); transition:transform 0.2s; flex-shrink:0; }
+.faq-a { display:none; padding:0 14px 12px; font-size:0.83rem; color:var(--gray); line-height:1.6; border-top:1px solid var(--border); background:var(--bg); }
 .faq-a a { color:var(--purple); font-weight:600; text-decoration:none; }
 .faq-item.open .faq-a { display:block; }
 .faq-item.open .faq-arrow { transform:rotate(180deg); }
@@ -223,7 +223,7 @@ body { background:#fff; font-family:'Sora',sans-serif; color:var(--navy); font-s
 .divider { height:1px; background:var(--border); margin:32px 0; }
 
 /* ── FOOTER ── */
-.footer { text-align:center; font-size:0.62rem; color:var(--gray); padding-top:16px; border-top:2px solid var(--teal-l); letter-spacing:0.03em; }
+.footer { text-align:center; font-size:0.77rem; color:var(--gray); padding-top:16px; border-top:2px solid var(--teal-l); letter-spacing:0.03em; }
 
 /* ── MOBILE ── */
 @media (max-width:480px) {
@@ -364,40 +364,40 @@ body { background:#fff; font-family:'Sora',sans-serif; color:var(--navy); font-s
 <div class="block">
   <div class="sh">The Opportunity</div>
   <div class="block-title" style="font-size:1.3rem;line-height:1.3;">Africa's Healthcare Infrastructure Gap Is a $4B Opportunity — We’re Among Certified Telemedicine Platforms.</div>
-  <div class="block-sub" style="font-size:0.82rem;margin-bottom:20px;">
+  <div class="block-sub" style="font-size:0.89rem;margin-bottom:20px;">
 La Ruche Health has built a telemedicine platform tailored to a high-demand healthcare segment in Côte d’Ivoire. 
 <br/><br/>After 3 years analyzing healthcare needs, developing the tech, and securing regulatory approval, we obtained certification in September 2025. 50 specialists are currently live on the platform, generating $3,600 in monthly gross revenue, with 500 more in the onboarding pipeline, positioning us to reach $31,000 in monthly gross revenue — our profitability milestone — within 9 months.
 <br/><br/>
-The groundwork is finally done — we’re now stepping into the next phase, and inviting a few more friends and family to join us as we scale.</div>
+The groundwork is finally done — we’re now stepping into the next phase, and inviting a few more to join us as we scale.</div>
 
   <div style="background:var(--navy);border-radius:12px;padding:20px 18px;margin-bottom:16px;">
-    <div style="font-size:0.6rem;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:10px;font-weight:700;">Investor Snapshot — March 2026</div>
+    <div style="font-size:0.83rem;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:10px;font-weight:700;">Investor Snapshot — March 2026</div>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
       <div style="border-right:1px solid rgba(255,255,255,0.08);padding-right:10px;">
-        <div style="font-size:0.6rem;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:3px;">Instrument</div>
+        <div style="font-size:0.83rem;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:3px;">Instrument</div>
         <div style="font-size:1rem;font-weight:700;color:var(--teal);">SAFE Note</div>
-        <div style="font-size:0.6rem;color:rgba(255,255,255,0.35);margin-top:2px;">$6.5M post-money cap · 20% discount</div>
+        <div style="font-size:0.83rem;color:rgba(255,255,255,0.35);margin-top:2px;">$6.5M post-money cap · 20% discount</div>
       </div>
       <div>
-        <div style="font-size:0.6rem;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:3px;">Target Return</div>
+        <div style="font-size:0.83rem;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:3px;">Target Return</div>
         <div style="font-size:1rem;font-weight:700;color:var(--amber);">8–12× by Q4 2030</div>
-        <div style="font-size:0.6rem;color:rgba(255,255,255,0.35);margin-top:2px;">Based on $50M Series B / acquisition valuation</div>
+        <div style="font-size:0.83rem;color:rgba(255,255,255,0.35);margin-top:2px;">Based on $50M Series B / acquisition valuation</div>
       </div>
       <div style="border-right:1px solid rgba(255,255,255,0.08);padding-right:10px;">
-        <div style="font-size:0.6rem;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:3px;">Exit Horizon</div>
+        <div style="font-size:0.83rem;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:3px;">Exit Horizon</div>
         <div style="font-size:1rem;font-weight:700;color:var(--teal);">Q4 2028–2030</div>
-        <div style="font-size:0.6rem;color:rgba(255,255,255,0.35);margin-top:2px;">Series B or strategic acquisition</div>
+        <div style="font-size:0.83rem;color:rgba(255,255,255,0.35);margin-top:2px;">Series B or strategic acquisition</div>
       </div>
       <div>
-        <div style="font-size:0.6rem;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:3px;">Profitability</div>
+        <div style="font-size:0.83rem;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:3px;">Profitability</div>
         <div style="font-size:1rem;font-weight:700;color:var(--teal);">Within 9 months</div>
-        <div style="font-size:0.6rem;color:rgba(255,255,255,0.35);margin-top:2px;">500 practitioners · 2,500 consults/mo</div>
+        <div style="font-size:0.83rem;color:rgba(255,255,255,0.35);margin-top:2px;">500 practitioners · 2,500 consults/mo</div>
       </div>
     </div>
   </div>
 
   <div style="background:var(--purple-dim);border:1.5px solid var(--purple-border);border-radius:10px;padding:14px 16px;">
-    <div style="font-size:0.68rem;color:var(--navy);line-height:1.6;">
+    <div style="font-size:0.83rem;color:var(--navy);line-height:1.65;">
       <strong>Scenario 1 — Exit at Series A (~$15,400 · ~3× on $5K · ~2 years)</strong>:<br/>
 Your SAFE converts at the $6.5M cap when the Series A happens at an estimated $20M valuation. Because your cap is $6.5M, you get shares priced as if the company is worth far less than $20M — giving you a larger ownership slice than Series A investors paying full price.<br/><br/>
 
@@ -407,7 +407,7 @@ La Ruche reaches an estimated $50M valuation via Series B or strategic acquisiti
 <strong>Scenario 3 — Re-invest at Series A with pro-rata + 20% discount (~$54,000 total · 5.4× on $10K)</strong>:<br/>
 Investors of $25K or more unlock the right to re-invest at Series A at a 20% discount to the round price. Invest $5K now, re-invest $5K at Series A at the discounted rate, hold both to the $50M exit: $10K total invested → ~$54,000 out. The lower headline multiple reflects the higher capital deployed — the absolute return is the largest of all three scenarios.<br/><br/>
 
-<em style="font-size:0.62rem;color:var(--gray);">* Illustrative projections only — not a guarantee of returns. Angel investing carries risk of total loss. Based on $6.5M SAFE cap, assumed $20M Series A and $50M exit. Actual returns depend on company performance and exit conditions.</em>
+<em style="font-size:0.77rem;color:var(--gray);">* Illustrative projections only — not a guarantee of returns. Angel investing carries risk of total loss. Based on $6.5M SAFE cap, assumed $20M Series A and $50M exit. Actual returns depend on company performance and exit conditions.</em>
     </div>
   </div>
 </div>
@@ -422,7 +422,7 @@ Investors of $25K or more unlock the right to re-invest at Series A at a 20% dis
   <div class="ms-stack">
     <div class="ms-card now">
       <div class="ms-left"><div class="ms-when">Today</div><div class="ms-num">50</div><div class="ms-vol">~$3.6k/mo</div></div>
-      <div class="ms-note">At <strong>11.4% from our breakeven milestone (network size) onboarded</strong>, we are deploying a more efficient onboarding process to streamline compliance, contracting, setup, and go-live.</div>
+      <div class="ms-note">At <strong>11.4% from our breakeven milestone (network size) onboarded</strong>, we are launching a more efficient onboarding process to streamline compliance, contracting, setup, and go-live.</div>
     </div>
     <div class="ms-card pipe">
       <div class="ms-left"><div class="ms-when">Q4 2026</div><div class="ms-num">~500</div><div class="ms-vol">~$35k+/mo</div></div>
@@ -488,6 +488,52 @@ Investors of $25K or more unlock the right to re-invest at Series A at a 20% dis
 </div>
 
 <div class="divider"></div>
+
+<!-- IMPACT STATS -->
+<div class="block">
+  <div class="sh">Real-World Impact — 5,500 Consultations · 2025 Data</div>
+  <div class="block-title" style="font-size:1.1rem;font-weight:700;color:var(--navy);margin-bottom:4px;">Why do we do this? - The Real World Impact.</div>
+  <div class="block-sub" style="font-size:0.91rem;margin-bottom:16px;">From our 2025 impact report — based on real patient and consultation data.</div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px;">
+
+    <div style="background:var(--white);border:1.5px solid var(--border);border-radius:10px;padding:14px;border-top:3px solid var(--purple);">
+      <div style="font-size:0.78rem;color:var(--gray);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;font-weight:600;">Who We Serve</div>
+      <div style="font-size:1.6rem;font-weight:700;color:var(--purple);line-height:1;">82%</div>
+      <div style="font-size:0.83rem;color:var(--gray);margin-top:3px;">of users are women · 45% aged 25–34</div>
+      <div style="font-size:0.78rem;color:var(--gray);margin-top:4px;line-height:1.4;">The core demographic: women in their reproductive years, seeking maternal, gynaecological, and general health care.</div>
+    </div>
+
+    <div style="background:var(--white);border:1.5px solid var(--border);border-radius:10px;padding:14px;border-top:3px solid var(--teal);">
+      <div style="font-size:0.78rem;color:var(--gray);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;font-weight:600;">Speed of Access</div>
+      <div style="font-size:1.6rem;font-weight:700;color:var(--teal);line-height:1;">52%</div>
+      <div style="font-size:0.83rem;color:var(--gray);margin-top:3px;">of consultations fulfilled within 48 hours</div>
+      <div style="font-size:0.78rem;color:var(--gray);margin-top:4px;line-height:1.4;">71% of GP consultations same-day. In a market where access delays cause patients to abandon care, this is structurally significant.</div>
+    </div>
+
+    <div style="background:var(--white);border:1.5px solid var(--border);border-radius:10px;padding:14px;border-top:3px solid var(--amber);">
+      <div style="font-size:0.78rem;color:var(--gray);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;font-weight:600;">Patient Retention</div>
+      <div style="font-size:1.6rem;font-weight:700;color:var(--amber);line-height:1;">36%</div>
+      <div style="font-size:0.83rem;color:var(--gray);margin-top:3px;">of consultations from returning patients</div>
+      <div style="font-size:0.78rem;color:var(--gray);margin-top:4px;line-height:1.4;">18% rebooking rate. Patients come back — the platform is becoming a reflex, not a one-time transaction.</div>
+    </div>
+
+    <div style="background:var(--white);border:1.5px solid var(--border);border-radius:10px;padding:14px;border-top:3px solid var(--teal);">
+      <div style="font-size:0.78rem;color:var(--gray);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;font-weight:600;">Already Pan-African</div>
+      <div style="font-size:1.6rem;font-weight:700;color:var(--teal);line-height:1;">15%</div>
+      <div style="font-size:0.83rem;color:var(--gray);margin-top:3px;">of users from diaspora &amp; international</div>
+      <div style="font-size:0.78rem;color:var(--gray);margin-top:4px;line-height:1.4;">France, UK, Ireland, USA/Canada — organic cross-border usage before any diaspora marketing. A direct proof-of-concept for the next growth phase.</div>
+    </div>
+
+  </div>
+
+  <div style="background:var(--teal-dim);border:1.5px solid var(--teal-border);border-radius:8px;padding:12px 14px;">
+    <div style="font-size:0.87rem;color:var(--navy);line-height:1.6;"><strong>96% of patients are uninsured and paying out of pocket.</strong> 61% pay via Mobile Money. This is not a niche product — it is the primary healthcare access point for a large, underserved, and growing population.</div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
 <!-- TIMELINE -->
 <div class="timeline-block">
   <div class="sh">Company History</div>
@@ -567,7 +613,7 @@ Investors of $25K or more unlock the right to re-invest at Series A at a 20% dis
   </div>
 </div>
 
-<div class="divider"></div>
+
 <!-- KEY NUMBERS -->
 <div class="sh">Current Numbers — March 2026</div>
 
@@ -622,6 +668,8 @@ Investors of $25K or more unlock the right to re-invest at Series A at a 20% dis
 
 </div>
 
+
+<div class="divider"></div>
 <!-- INVESTORS -->
 <div class="block">
 
@@ -701,11 +749,11 @@ Investors of $25K or more unlock the right to re-invest at Series A at a 20% dis
   <div class="team-stack">
     <div class="team-card">
       <div class="avatar">👨🏾‍💼</div>
-      <div><div class="t-name">Rory Assandey</div><div class="t-role">CEO & Co-Founder</div><div class="t-bio">Former SAP Solutions Expert. Led enterprise IT projects across EMEA, LA and North America. After 10 years, resigned from SAP America to build a team and launch La Ruche Health.</div><a class="t-li" href="https://www.linkedin.com/in/rory-amani/" target="_blank">linkedin.com/in/roryassandey →</a></div>
+      <div><div class="t-name">Rory Assandey</div><div class="t-role">CEO & Co-Founder</div><div class="t-bio">Former SAP executive. Led enterprise sales & BD across West Africa. Secured DEPPS certification, Gates Foundation, Royal Academy of Engineering, and Prix Galien partnerships. Based in Abidjan.</div><a class="t-li" href="https://www.linkedin.com/in/rory-amani/" target="_blank">linkedin.com/in/roryassandey →</a></div>
     </div>
     <div class="team-card">
       <div class="avatar">👨🏾‍💻</div>
-      <div><div class="t-name">Benjamin Sasu</div><div class="t-role">CTO & Co-Founder</div><div class="t-bio">Full-stack engineer and AI integrations expert. Led the development of end-to-end applications for government and private institutions in Ghana, and tutored at the University of Ghana before building La Ruche Health. Technology architect at La Ruche Health (AI and WhatsApp integrations, front-end, back-end, and mobile). Expert in AI-native product infrastructure.</div><a class="t-li" href="https://www.linkedin.com/in/benjamin-sasu-60aa9b1ab/" target="_blank">linkedin.com/in/benjaminsasu →</a></div>
+      <div><div class="t-name">Benjamin Sasu</div><div class="t-role">CTO & Co-Founder</div><div class="t-bio">Full-stack engineer & AI architect. Built and scaled Kiko (350K users). Architect of La Ruche Health EMR and large-scale WhatsApp integrations. Expert in AI-native product infrastructure.</div><a class="t-li" href="https://www.linkedin.com/in/benjamin-sasu-60aa9b1ab/" target="_blank">linkedin.com/in/benjaminsasu →</a></div>
     </div>
   </div>
 </div>
